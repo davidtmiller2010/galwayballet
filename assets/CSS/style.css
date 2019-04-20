@@ -10,6 +10,7 @@ header {
     background-size: contain;
     height: 150px;
     position: relative;
+    margin-bottom:10px;
 }
 
 button {
@@ -23,10 +24,12 @@ button {
 }
 
 .bar-icon {
-    margin: 5px 3px;
+    margin: 10px 3px;
     word-spacing: 2em;
     padding: 0;
+    
 }
+
 
 .navcenter {
     background-color: #B4B7BC;
@@ -47,12 +50,126 @@ nav ul a {
 
 nav ul .icon {
     margin-right: 10px;
+    color:#FACC2E;
 }
 
 
 nav ul a:hover {
     background-color: #6D4399;
     color: #B4B7BC;
+}
+
+
+/*----------Footer---------*/
+footer{
+    background: #6D4399;
+    color: #6D4399;
+    position: relative;
+    padding:0;
+    margin:0;
+    text-align: justify;
+    height:80px;
+}
+
+.footermessage {
+    background-color:#FACC2E;
+    margin:0;
+    height:80px;
+    padding:10px 10px;
+}
+
+
+.links {
+    text-align:center;
+    background-color:#6D4399;
+    color:#B4B7BC;
+    font-size:10px;
+    
+    
+}
+
+.social-links {
+    background-color:#6D4399; 
+    padding:0;
+}
+
+.social-links i {
+    background-color:#6D4399; 
+    color:#B4B7BC;
+}
+
+.infobutton {
+    font-size: 30px;
+    color: #6D4399;
+    margin:0;
+    margin-top:10px;
+    margin-left:5px;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.infobutton:hover {
+    color:#FACC2E;
+}
+
+
+.icon {
+    font-size: 30px;
+    color:#000;
+    margin-right:25px;
+    margin-top:10px;
+    text-align: center;
+    padding:0;
+     transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.icon:hover {
+    color:#FACC2E;
+}
+
+.copyright {
+    font-size: 30px;
+    color: #6D4399;
+    margin-left:90%;
+    margin-bottom:10px;
+    padding:0;
+}
+
+.container-fluid {
+    padding: 0;
+    margin:0;
+    margin-top: 5px;
+}
+
+/*-----------special paddings/margins/text----------*/
+h1,h2,h3,h4 {
+    margin:0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-size:15px;
+   
+}
+
+.inline-block {
+    display:inline-block;
+}
+
+.general {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+p{
+    font-size:15px;
 }
 
 /*----------Media Queries---------*/
@@ -74,9 +191,7 @@ nav ul a:hover {
 /* Tablet */
 
     {
-    body {
-        background: #B4B7BC;
-    }
+   
     nav ul a {
         margin-right: 25%;
         display: inline-block;
@@ -87,7 +202,5 @@ nav ul a:hover {
 /* Desktop */
 
     {
-    body {
-        background: white;
-    }
+    
 }
