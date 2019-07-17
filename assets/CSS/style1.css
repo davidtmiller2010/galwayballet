@@ -222,7 +222,8 @@ table td {
 
 .news {
     z-index: -1;
-    
+    font-weight:600;
+    text-align:center;
 }
 
 .newsheader {
@@ -239,6 +240,13 @@ table td {
   font-weight:600;
 }
 
+.center {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+} 
 /*----------Testimonials---------*/
 
 .testimonials {
