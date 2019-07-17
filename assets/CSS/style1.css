@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+
+/*----------colors---------*/
+
+.bg-color-details {
+    background: none;
+    color: #6D4399;
+}
+
+.formbg {
+    background: none;
+}
+
+
+.bg-color-contact {
+    color: #6D4399;
+    background: none;
+}
+
+/*----------Header---------*/
+
+header {
+    margin-bottom: 90px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #6D4399;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    padding: 0;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    background-color: #6D4399;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #B4B7BC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #000;
+}
+
+li a:hover {
+    color: white;
+    background-color: #6D4399;
+}
+
+.active {
+    background-color: #B4B7BC;
+    color: #6D4399;
+}
+
+
+/*----------body---------*/
+
+body {
+    top: 20px;
+    background-image: url("../images/balletshoes.jpg");
+    background-size: 100%;
+    font-family: "Exo", sans-serif;
+}
+
+.logo {
+    background: #6D4399;
+    background-image: url("../images/reginalogo3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    width: 100%;
+    position: relative;
+    height: 150px;
+    padding: 0;
+    z-index: -1;
+    margin: 0;
+}
+
+
+.row {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.paragraph {
+    margin: 10px 0;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: "Exo", Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    z-index: -1;
+}
+
+
+/*----------Footer---------*/
+
+footer {
+    background: #6D4399;
+    color: #6D4399;
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+}
+
+.footermessage {
+    background-color: #B4B7BC;
+    margin: 0;
+    height: 50px;
+    padding: 0px;
+}
+
+.infobutton {
+    background-color: #B4B7BC;
+    font-size: 20px;
+    color: #6D4399;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.infobutton:hover {
+    color: white;
+}
+
+/*----------Tables---------*/
+
+.table {
+    border: solid;
+    width: 80%;
+    color: black;
+    border-color: #6D4399;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #B4B7BC;
+}
+
+table th {
+    background: #6D4399;
+    color: white;
+    border: solid;
+    border-color: #6D4399;
+    text-align: center;
+}
+
+table td {
+    border: solid;
+    color: black;
+    border-color: #6D4399;
+}
+
+#formstyle {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.form-row {
+    margin-top: 5px;
+}
+
+/*----------General---------*/
+
+.headers {
+    font-weight: 800;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.heading {
+    font-weight: 600;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.headerstyle {
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.contact-heading {
+    margin: 25px 0;
+}
+
+.gallery {
+    margin: 15px 30px;
+}
+
+.news {
+    z-index: -1;
+    
+}
+
+.newsheader {
+    margin: 20px 0;
+    text-align:center;
+    text-decoration:underline;
+    font-weight:bold;
+    color:#6D4399;
+}
+
+.bordernews {
+  border-style: solid;
+  border-width:1px;
+  font-weight:600;
+}
+
+/*----------Testimonials---------*/
+
+.testimonials {
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 2px;
+    margin-bottom:10px;
+    text-align: justify;
+    z-index: -1;
+    font-weight:600;
+    font-family:"Exo",sans-serif;
+}
+
+/*----------Media Queries---------*/
+
+@media screen and (max-width: 500px)
+/* Mobile */
+
+    {
+
+    nav ul a {
+        margin-right: 60%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 979px)
+/* Tablet */
+
+    {
+
+    nav ul a {
+        margin-right: 25%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 980px)
+/* Desktop */
+
+{}

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/CSS/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/CSS/style1.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Exo|Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <title>Regina Rogers</title>
@@ -15,74 +15,90 @@
 
 <body>
     <header>
-        <div class "container">
-            <div class="menu">
-                <button class="buttonheader mr-auto" type="button" data-toggle="collapse" data-target="#buttondropdown" aria-expanded="false" aria-controls="navbar"><span class="bar-icon"><i class="fa fa-bars fa-lg"></i></span></button>
-                <div class="collapse button-collapse" id="buttondropdown">
-                    <nav>
-                        <ul id="navbar" Class="list-inline navcenter">
-                            <a href="index.html" class=" col-12  col-2 amenu"><i class="icon fa fa-home fa-lg"></i><span>Home</span></a>
-                            <a href="Classes.html" class="col-12  col-2 amenu"><i class="icon fa fa-graduation-cap fa-lg"></i><span>Classes</span></a>
-                            <a href="News.html" class="col-12  col-2 amenu"><i class="icon fa fa-calendar fa-lg"></i><span>News & Events</span></a>
-                            <a href="Testimonial.html" class="col-12 col-2 amenu"><i class="icon fa fa-quote-right fa-lg"></i><span>Testimonials</span></a>
-                            <a href="Gallery.html" class="col-12  col-2 amenu"><i class="icon fa fa-image fa-lg"></i><span>Gallery</span></a>
-                            <a href="Contact.html" class="col-12  col-2 amenu"><i class="icon fa fa-phone-square fa-lg"></i><span>Contact Us</span></a>
-                        </ul>
-                    </nav>
+        <div class="navbar ">
+            <ul>
+                <li><a href="index.html" class=" col-12  col-2"><i class="fa fa-home fa-lg"> Home</i></a></li>
+                <li><a href="Classes.html" class=" col-12  col-2"><i class="fa fa-graduation-cap fa-lg"> Classes</i></a></li>
+                <li><a href="News.html" class="active col-12  col-2"><i class="fa fa-calendar fa-lg"> News & Events</i></a></li>
+                <li><a href="Testimonial.html" class=" col-12  col-2"><i class="fa fa-quote-right fa-lg"> Testimonials</i></a></li>
+                <li><a href="Gallery.html" class=" col-12  col-2"><i class="fa fa-image fa-lg"> Gallery</i></a></li>
+                <li><a href="Contact.html" class=" col-12  col-2"><i class="fa fa-phone-square fa-lg"> Contact Us</i></a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="logo">
+            <!---logo--->
+        </div>
+        <div class="news ">
+            <h3 class=heading>News</h3>
+            <div class="row">
+                <div class="col-4 news bordernews">
+                    <h5 class="newsheader">New Beginners Ballet</h5>
+                    </br>
+                    <img src="../assets/images/newBeginnersBallet.jpg" width="200" height="140">
+                    <p>New beginners ballet at Cappagh Community Centre, starts Saturday 7th September 2019, 2pm to 2.45pm. Enrollment now open, contact Regina Rogers.</p>
+                </div>
+                <div class="col-4 news bordernews">
+                    <h5 class="newsheader">Masterclasses with Katherine Lewis</h5>
+                    </br>
+                    <img src="../assets/images/MidTermWorkshop.jpg" width="200" height="140">
+                    <p>We had wonderful Ballet Masterclasses with our dear Katherine Lewis who we will miss hugely! Katherine was an inspiration and so kind to every single student she encountered.</p>
+                </div>
+                <div class="col-4 news bordernews">
+                    <h5 class="newsheader">National Dance Championships and Twilight Competitions 2019</h5>
+                    </br>
+                    <img src="../assets/images/NationalDanceChamps.jpg" width="200" height="140">
+                    <p>Our second and third terms were spent preparing for the National Dance Championships and Twilight Competitions where the girls picked up several awards” Thank you to everyone!</p>
                 </div>
             </div>
         </div>
-
-    </header>
-    <section>
-        <div>
-            test dialog
+        <h3 class=heading>Events</h3>
+        <div class="row news ">
+            <div class=" col-4 bordernews ">
+                <h5 class="newsheader  ">Summer Camp</h5>
+                <img src="../assets/images/summerCamp.jpg " width="200 " height="140 ">
+                <p>We will be holding summer dance camps 1st and 3rd weeks of August for ages 8-16. Please contact us for more information.</p>
+            </div>
+            <div class="col-4 bordernews ">
+                <h5 class="newsheader ">October Exams</h5>
+                <img src="../assets/images/balletExams.jpg " width="200 " height="140 ">
+                <p>Exams for grades 1 - 3 will be held on 18th October in our Galway Studio. Please contact us for more information.</p>
+            </div>
+            <div class="col-4 bordernews ">
+                <h5 class="newsheader ">More Events coming soon!</h5>
+                <img src="../assets/images/comebacksoon.jpg " width="200 " height="140 ">
+                <p></p>
+            </div>
         </div>
 
     </section>
     <footer>
-        <div class="row container-fluid">
-            <div class="col-sm-6 footermessage">
-                <h7 class="uppercase general">Looking for ballet classes in galway?</h7><br/>
-                <p class="inline-block ">
-                    We have classes in Galway City and Knocknacarra.
-                </p>
-            </div>
-
-            <div class="col-sm-6 links">
-                <h7 class="uppercase ">Links</h7><br/>
-                <ui class="list-inline social-links">
-                    <li class=" list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-facebook icon" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
+        <div class="footermessage ">
+            <h7 class="uppercase general ">Looking for ballet classes in galway?</h7><br/>
+            <p class="inline-block footermessage ">
+                We have classes in Galway City and Knocknacarra.
+                <br> Contact Us:
+                <a href="# " target="_blank ">
+                     <i class="fa fa-phone-square infobutton " aria-hidden="true "></i>
+                    </a>
+                <a target="_blank " href="# ">
+                            <i class="fa fa-facebook infobutton " aria-hidden="true "></i>
+                            <span class="sr-only ">Facebook</span>
                         </a>
-                    </li>
-                    <li class=" list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-twitter icon" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
+                <a target="_blank " href="# ">
+                            <i class="fa fa-twitter infobutton " aria-hidden="true "></i>
+                            <span class="sr-only ">Twitter</span>
                         </a>
-                    </li>
-                    <li class=" list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-instagram icon" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
+                <a target="_blank " href="# ">
+                            <i class="fa fa-instagram infobutton " aria-hidden="true "></i>
+                            <span class="sr-only ">Instagram</span>
                         </a>
-                    </li>
-            
-                <!---<div class=" footermessage">--->
-                <h7 class="uppercase general">Contact Us: </h7>
-                <a href="#" target="_blank">
-                     <i class="fa fa-phone-square infobutton" aria-hidden="true"></i>
-                </a>
-                </div>
-            </div>
+            </p>
         </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
 
 </body>
