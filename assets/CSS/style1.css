@@ -20,19 +20,19 @@
 .submit {
     color: darkgreen;
     border: solid #B4B7BC;
-    margin-top:5px;
+    margin-top: 5px;
     font-weight: bold;
-    padding:10px;
-    margin:5px 10px 0 10px;
+    padding: 10px;
+    margin: 5px 10px 0 10px;
 }
 
 .reset {
     border: solid #B4B7BC;
     color: darkred;
-    margin-top:5px;
+    margin-top: 5px;
     font-weight: bold;
-    padding:10px;
-    margin:5px 10px 0 10px;
+    padding: 10px;
+    margin: 5px 10px 0 10px;
 }
 
 .bars {
@@ -51,6 +51,8 @@
 .form-control {
     border: solid #B4B7BC;
 }
+
+
 
 /*----------Header---------*/
 
@@ -334,6 +336,7 @@ table td {
         margin-bottom: 25px;
         text-align: justify;
         margin-right: 10px;
+        font-weight: 600;
     }
 
     .footermessage {
@@ -369,9 +372,10 @@ table td {
 
     }
 
+
     .picdimensions {
-        width: 200px;
-        height: 150px;
+        width: 0px;
+        height: 0px;
     }
 
     .parastyle {
@@ -410,6 +414,10 @@ table td {
         font-size: 15px;
     }
 
+    .video {
+        width:0;
+        height:0;
+    }
 
 }
 
@@ -467,6 +475,7 @@ table td {
         margin-bottom: 20px;
         margin-right: 10px;
         text-align: justify;
+        font-weight: 600;
     }
 
     .newsheader {
@@ -541,6 +550,7 @@ table td {
     .testhead {
         text-align: left;
     }
+
 }
 
 @media screen and (min-width: 992px)
@@ -590,6 +600,7 @@ table td {
         margin-bottom: 10px;
         text-align: justify;
         margin-right: 10px;
+        font-weight: 600;
     }
 
     .newsheader {
@@ -621,7 +632,7 @@ table td {
     }
 
     .picdimensions {
-        width: 450px;
+        width: 480px;
         height: 350px;
 
     }
