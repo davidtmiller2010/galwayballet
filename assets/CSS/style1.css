@@ -18,8 +18,8 @@
 }
 
 .submit {
-    background-color: #7dff52;
-    border: none;
+    color: darkgreen;
+    border: solid #B4B7BC;
     margin-top:5px;
     font-weight: bold;
     padding:10px;
@@ -27,8 +27,8 @@
 }
 
 .reset {
-    border: none;
-    background-color: #ff5050;
+    border: solid #B4B7BC;
+    color: darkred;
     margin-top:5px;
     font-weight: bold;
     padding:10px;
@@ -46,6 +46,10 @@
     cursor: pointer;
     z-index: 2;
     position: fixed
+}
+
+.form-control {
+    border: solid #B4B7BC;
 }
 
 /*----------Header---------*/
