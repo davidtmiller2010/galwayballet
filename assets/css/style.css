@@ -594,8 +594,8 @@ table td {
     }
 
     .image {
-        width: 450px;
-        height: 400px;
+        width: 400px;
+        height: 350px;
         margin: 10px 5px 10px 5px;
         float: left;
     }
@@ -652,7 +652,7 @@ table td {
     }
 
     .paragraph {
-        margin: 15px 25px 10px 25px;
+        margin: 15px 5px 10px 5px;
         text-align: justify;
         text-justify: inter-word;
         font-family: "Exo", Times, serif;
