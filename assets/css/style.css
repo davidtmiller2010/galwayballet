@@ -109,7 +109,7 @@ body {
     font-family: "Exo", sans-serif;
 }
 
-.logo {
+#logo {
     background: #6D4399;
     background-image: url("../images/reginalogo3.jpg");
     background-position: center;
@@ -674,5 +674,4 @@ table td {
         margin: 0 15px;
         color: #6D4399;
     }
-
 }

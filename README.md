@@ -5,9 +5,6 @@ This website is for Regina Rogers school of Ballet.
 
 The website can be viewed [here](https://davidtmiller2010.github.io/galwayballet/index.html).
 
-The code can be viewed [here](https://github.com/davidtmiller2010/galwayballet)
-
-
 This website has 2 main purposes:
 1. Introduce perspective students to what the school is about,testimonials from past pupils, what date classes are available and a means to contact the school.
 2. Current students will also be able to see a gallery from recent event sas well as a news and event page.
@@ -61,14 +58,13 @@ Other features include
 ## Technologies 
 
 #### Developement Tools
-The tools used for the creation and management of this project included Cloud9 (more recently AWS Cloud9) and GitHub.
+The tools used for the creation and management of this project was [GitHub](https://github.com/).
 
 #### Technologies
 HTML and CSS were used to write this project. The project aslo makes use of 
-- Javascript (including JQuery), used for the menu bars for mobile responsive mode
-- fontawesome, 
-- bootstrap.
-- google font
+- [Javascript/JQuery](https://jquery.com/), used for the menu bars for mobile responsive mode
+- [fontawesome and bootstrap](https://stackpath.bootstrapcdn.com/) 
+- [google font](https://fonts.google.com/)
 
 
 ## Testing
@@ -100,7 +96,7 @@ Other Testing
 
 
 ## Deployment
-This project was deployed to GitHub on a regular basis as features were added. This allowed for version control.
+This project was deployed to GitHub on on every push to master. This allowed for version control.
 
 Versions of the deployed code can be viewed [here](https://github.com/davidtmiller2010/galwayballet)
 
