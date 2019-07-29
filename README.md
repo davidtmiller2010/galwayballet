@@ -8,7 +8,7 @@ The website can be viewed [here](https://davidtmiller2010.github.io/galwayballet
 The code can be viewed [here](https://github.com/davidtmiller2010/galwayballet)
 
 
-This website h 2 main purposes
+This website has 2 main purposes:
 1. Introduce perspective students to what the school is about,testimonials from past pupils, what date classes are available and a means to contact the school.
 2. Current students will also be able to see a gallery from recent event sas well as a news and event page.
 
@@ -42,14 +42,16 @@ Here people will be able to submit a form to the school with questions they have
 
 
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+The Website has a number of responsive features for smaller devices:
+- responsive class timetable to allow users to read the table whatever device they use,
+- responsive photo/video control by removing the number of photos the website loads when used on smaller devices
+- responsive menu which shrinks behind a menu bar when used on mobile devices
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Other features include
+- contact form for user to easily contact the school with questions.
+- links to different media links including facebook, twitter and instagram.
+- full video controls
 
 ## Features Left to Implement
 - Future features include making a payment method available on the website so that students can pay online instead of in class.

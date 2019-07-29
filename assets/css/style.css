@@ -11,7 +11,6 @@
     background: none;
 }
 
-
 .bg-color-contact {
     color: #6D4399;
     background: none;
@@ -52,24 +51,11 @@
     border: solid #B4B7BC;
 }
 
-
-
 /*----------Header---------*/
 
 header {
     margin-bottom: 0;
 }
-
-/*.navbar {
-    overflow: hidden;
-    background-color: #6D4399;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 90px;
-    padding: 0;
-    float: right;
-}*/
 
 .icons {
     display: none;
@@ -81,7 +67,6 @@ ul {
     margin-top: 0;
     padding: 0;
     background-color: #6D4399;
-
 }
 
 li {
@@ -115,7 +100,6 @@ li a:hover {
     text-align: center;
 }
 
-
 /*----------body---------*/
 
 body {
@@ -140,11 +124,9 @@ body {
     z-index: 1;
 }
 
-
 .row {
     margin-left: 25px;
     margin-right: 25px;
-
 }
 
 .row1 {
@@ -164,7 +146,6 @@ body {
     font-weight: 500;
     z-index: -1;
 }
-
 
 /*----------Footer---------*/
 
@@ -247,7 +228,6 @@ table td {
     text-align: center;
     margin-top: 10px;
     font-size: 40px;
-
 }
 
 .headerstyle {
@@ -268,7 +248,6 @@ table td {
     width: 100%;
     color: #6D4399;
 }
-
 
 .container-fluid1 {
     padding: 0;
@@ -319,8 +298,6 @@ table td {
     font-weight: 600;
     font-family: "Exo", sans-serif;
 }
-
-
 
 /*----------Media Queries---------*/
 
@@ -373,8 +350,8 @@ table td {
         height: 100%;
         width: 340px;
         margin: 0;
-
     }
+    
     .newsheader {
         margin-top: 15px;
     }
@@ -382,6 +359,7 @@ table td {
     h6 {
         font-size: 30px;
     }
+    
     .picdimensions {
         width: 0px;
         height: 0px;
@@ -452,7 +430,6 @@ table td {
     }
 
     .gallery {
-
         width: 49%;
         text-align: center;
     }
@@ -517,7 +494,6 @@ table td {
         width: 660px;
         margin-left: 10px;
         margin-right: 10px;
-
     }
 
     .picdimensions {
@@ -565,7 +541,6 @@ table td {
         width: 100%;
         color: #6D4399;
     }
-
 }
 
 @media screen and (min-width: 1025px) {
@@ -574,12 +549,10 @@ table td {
         display: none;
     }
 
-
     .gallery {
         margin: 1px;
         text-align: center;
         width: 32%;
-
     }
 
     .testimonials {
@@ -642,13 +615,11 @@ table td {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-
     }
 
     .picdimensions {
         width: 380px;
         height: 260px;
-
     }
 
     .paragraph {
@@ -671,7 +642,6 @@ table td {
         font-weight: 500;
         z-index: -1;
     }
-
 
     .navbar {
         overflow: hidden;
